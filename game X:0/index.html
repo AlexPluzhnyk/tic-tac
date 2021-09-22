@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game</title>
+    <link rel="stylesheet" href="scss/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-win" id="container-win">
+        <div class="overlay" id="overlay"></div>
+        <div class="win-person" id="win-person"></div>
+      </div>
+      <h1 id="titleCount">Раунд - 0</h1>
+      <div class="result" id="result">
+        <ul class="list">
+          <li>Нолики побед -</li>
+          <li id="win-0">0</li>
+        </ul>
+        <ul class="list">
+          <li>Крестики побед -</li>
+          <li id="win-x">0</li>
+        </ul>
+      </div>
+      <div class="box" id="box"></div>
+      <button class="btn" id="restart" href="">Начать заново</button>
+    </div>
+    <script src="script/script.js"></script>
+  </body>
+</html>
